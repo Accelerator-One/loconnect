@@ -1,0 +1,52 @@
+body,#root {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x:hidden;
+    height: 100vh;
+}
+
+#mainLogo {
+    border-radius: 50%;
+    width : 256px;
+    height: 256px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+#login {
+    height  : 100vh;
+    display : flex;
+    padding-top : 10vh;
+    padding-bottom : 4vh;
+    text-align  : center;
+    justify-content : space-around;
+    align-items     : center;
+    flex-direction  : column;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+.btn {
+    width : 49%;
+}
+
+.card,.card-reveal {
+    min-height : 120px;
+    min-width  : 320px;
+    max-width  : 560px;
+    text-align : left;
+    margin: auto !important;
+}
+
+#locate {
+    height: 80%;
+}
+
+.small {
+    font-size: 8px;
+}
+
+.preloader-wrapper {
+    position: fixed;
+    top: 40vh;
+}
